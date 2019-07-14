@@ -1,16 +1,13 @@
-package com.naresh.config;
+package com.naresh;
 
-import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
-
-import com.naresh.ProductService;
-import com.naresh.ShoppingCart;
 
 @Configuration
+@ComponentScan
 public class BeanConfig {
 
-	@Bean
+	/*@Bean
 	@Scope("prototype")
 	public ShoppingCart shoppingCart() {
 		return new ShoppingCart();
@@ -20,5 +17,5 @@ public class BeanConfig {
 	@Scope("singleton") // default scope:singleton
 	public ProductService productService() {
 		return new ProductService();
-	}
+	}*/
 }

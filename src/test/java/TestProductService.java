@@ -1,9 +1,8 @@
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.naresh.BeanConfig;
 import com.naresh.ProductService;
-import com.naresh.ShoppingCart;
-import com.naresh.config.BeanConfig;
 
 public class TestProductService {
 
